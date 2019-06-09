@@ -10,6 +10,12 @@ describe("Fizz Buzz Game", function() {
         });
     });
     
+            describe("Checks Ping Pong Game returns Ping", function() {
+        it("should return Ping", function() {
+            var result = pingPongGame("Pong")
+            expect(result).toBe("Ping");
+        });
+    });
 
 
 });
