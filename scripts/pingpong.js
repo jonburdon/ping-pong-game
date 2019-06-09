@@ -10,7 +10,10 @@ pingPongGame = function(pingpong) {
             return "Please enter Ping, Pong or a number 0-10.";
         }
     }
-    else {
+    else if (pingpong===0){
         return 10;
+    }
+    else {
+        return "Please enter Ping, Pong or a number 0-10.";
     }
 };
