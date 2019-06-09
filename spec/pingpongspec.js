@@ -37,6 +37,13 @@ describe("Fizz Buzz Game", function() {
             expect(result).toBe(10);
         });
     });
+    
+                        describe("Checks Ping Pong Game returns Pong", function() {
+        it("should return 10", function() {
+            var result = pingPongGame(8)
+            expect(result).toBe(2);
+        });
+    });
 
 
 });
