@@ -1,14 +1,24 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Ping Pong Game - Test Driven Development Demonstration
+
+### Red Green Refactor philosophy
+
+This javascript game accepts a number input, or the word ping or the word pong.
+If the number is with the range 0-10, the game returns the number bond to 10.
+If the input is "Ping", the game returns "Pong" and vice versa.
 
 
-Hi there! Welcome to AWS Cloud9!
+Git commit has been used to demonstrate development of the product using Red Green Refactor approach.
+Jasmine was loaded via a cdn. Each stage of the development was commited to git to demonstrate the following cycle for each piece of logic in the game code:
+1. Write a test that will fail
+2. Write only enough code to pass the test
+3. Refactor the code to improve it
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+### Technologies used
+- HTML
+- javascript
+- Jasmine
+- Git
 
-Happy coding!
+
+### Future plans
+[ ] Add buttons and instructions to index.html so that the game can be played in the browser.
