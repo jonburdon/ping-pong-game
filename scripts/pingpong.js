@@ -13,6 +13,9 @@ pingPongGame = function(pingpong) {
     else if (pingpong>10) {
         return "Please enter Ping, Pong or a number 0-10.";
     }
+    else if (pingpong=== -1) {
+        return "Please enter Ping, Pong or a number 0-10.";
+    }
     else if (pingpong+(10-pingpong) === 10) {
         return 10-pingpong;
     }
